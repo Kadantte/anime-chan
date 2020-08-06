@@ -44,7 +44,7 @@ axios.get(uri).then(({ data }) => {
 
 Have an idea? Found a bug? Create [a new issue](https://github.com/RocktimSaikia/anime-chan/issues) with detailed explanation.
 
-## :zap: Support
+## :sparkling_heart: Support
 
 <a href="https://www.buymeacoffee.com/7BdaxfI" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" height="35px" alt="Buy Me A Coffee" id="coffee"></a>
 <a href='https://ko-fi.com/Q5Q81MAMU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
