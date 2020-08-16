@@ -5,7 +5,7 @@
 
 <p align="center"><img alt="David" src="https://img.shields.io/david/rocktimsaikia/anime-chan?style=for-the-badge"/> <img alt="Travis (.com) branch" src="https://img.shields.io/travis/com/rocktimsaikia/anime-chan/master?style=for-the-badge"/> <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/rocktimsaikia/anime-chan?style=for-the-badge"/></p>
 
-## :cloud: Routes
+### Routes
 
 - `/api/quotes` : returns 10 quotes by default
 
@@ -13,7 +13,7 @@
 - `/api/quotes?anime=<anime-name>` : query quotes by the name of the anime
 - `/api/quotes?char=<character-name>` : query quotes by a anime character name
 
-## :clipboard: Usage
+### Usage
 
 ```js
 //you can use any http library you want
@@ -40,18 +40,18 @@ axios.get(uri).then(({ data }) => {
 */
 ```
 
-## :rocket: How to contribute
+### Contribute
 
 Have an idea? Found a bug? Create [a new issue](https://github.com/RocktimSaikia/anime-chan/issues) with detailed explanation.
 
-## :sparkling_heart: Support
+### Support
 
 <a href="https://www.buymeacoffee.com/7BdaxfI" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" height="35px" alt="Buy Me A Coffee" id="coffee"></a>
 <a href='https://ko-fi.com/Q5Q81MAMU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 > If you are using the API for your app, your online tutorials or your coding challenges, please consider supporting to help keep the project alive. :)
 
-## :scroll: License
+### License
 
 [MIT][license] © [Rocktim Saikia][website]
 
