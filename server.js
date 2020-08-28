@@ -24,9 +24,9 @@ app.set("json spaces", 2);
 // index routes
 app.use("/", require("./routes/index"));
 // api routes
-app.use("/api", require("./routes/api/index"));
+app.use("/api", require("./routes/index"));
 // not found route
-app.use("*", require("./controllers/index_controllers").notFound);
+app.use("/api/*", require("./routes/index"));
 
 app.listen(process.env.PORT, () => {
   console.log(`server is connected at ${process.env.PORT} 🚀`);
