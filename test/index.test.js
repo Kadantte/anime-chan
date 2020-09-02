@@ -1,10 +1,19 @@
-const server = require('../app');
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const {expect} = require('chai');
 
+const app = require('../config/express');
+const mongoose = require('../config/mongoose');
+
+mongoose.connect();
+
+app.listen(process.env.PORT, () => {
+	console.log((`Server is running at port ${process.env.PORT}`));
+});
+
+
 chai.use(chaiHttp);
-const request = async path => chai.request(server).get(`/api${path}`);
+const request = async path => chai.request(app).get(`/api${path}`);
 
 describe('api status check', () => {
 	it('should reponse with status 200', async () => {

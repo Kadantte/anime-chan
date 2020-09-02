@@ -18,4 +18,4 @@ script:
   - yarn run test
 
 notifications:
-  email: falses
+  email: false
